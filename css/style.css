@@ -1,0 +1,184 @@
+:root {
+    --primary-color : #F48FB1;
+    --secondry-color: #F8BBD0;
+    --white-color : #fff;
+    --icon-color: #EC407A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo Play', sans-serif;
+    direction: rtl;
+}
+
+header {
+width: 100%;
+height: 200px;
+max-width: 1920px;
+background-color: var(--primary-color);
+}
+
+header nav{
+    width: 100%;
+    max-width: 1920px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+}
+
+header nav h1{
+    cursor: pointer;
+}
+
+.icons i {
+    color: var(--icon-color);
+    font-size: 25px;
+    padding-right: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.icons i:hover{
+    color: var(--white-color);
+}
+
+.main{
+    width: 95%;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    background-color: var(--white-color);
+    top: -100px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    padding-top: 40px;
+
+}
+
+.warn {
+    width: 90%;
+    /* background-color: var(--secondry-color); */
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+.content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+.book{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+.book:hover{
+    transform: scale(1.1);
+}
+
+.b001{
+    background-image: url(../images/b001.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b002{
+    background-image: url(../images/b002.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.b003{
+    background-image: url(../images/b003.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b004{
+    background-image: url(../images/b004.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b005{
+    background-image: url(../images/b005.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.b006{
+    background-image: url(../images/b006.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.b007{
+    background-image: url(../images/b007.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.b008{
+    background-image: url(../images/b008.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.b009{
+    background-image: url(../images/b009.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.b010{
+    background-image: url(../images/b010.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.b011{
+    background-image: url(../images/b011.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.b012{
+    background-image: url(../images/b012.jpg);
+    background-position: center;
+    background-size: cover;
+}
